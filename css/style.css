@@ -1,0 +1,439 @@
+    .navbar-brand {/*used to push the logo into a better position*/
+      padding: 5px 15px;
+    }
+    
+    .itemtitle{
+      font-weight:700;
+      text-transform: uppercase;
+      color:#BC0243;
+      padding:15px;
+    }
+    .upcomingevents{
+      background-color: #E7E8E1;
+      margin-bottom: 0;
+      padding-top:25px;
+      padding-bottom:25px;
+    }
+    .newsitems{
+      background-color: #F2F2F2;
+      margin-bottom: 0;
+      padding-top:25px;
+      padding-bottom:15px;
+    }
+    
+
+    .the-news{
+     border-right-style: dotted;
+     border-right-color: #BC0243;
+     padding:15px;
+    }
+    
+    .newblock{
+      padding-bottom:25px;
+      margin-bottom:25px;
+      
+    }
+    .newblock img{
+      padding:15px;
+    }
+  
+    .intro-paragraph{
+      padding-top: 10px;
+      padding-bottom: 25px;
+    }
+    .newshead{
+      font-weight:700;
+      text-decoration:underline;
+      padding-left: 10px;
+    }
+    .news-body{
+      padding-left: 10px;
+    }
+    /*modify the button*/
+    .btn{
+      background-color:#BC0243;
+      color:#fff;
+    }
+    .btn:hover{
+      background-color:#D2024B;
+      color:#f1f1f1;
+    }    
+    
+      /*Band members images*/
+    .bandmembersimg {
+        border: 10px solid transparent;
+        margin-bottom: 5px;
+        width: 80%;
+        height: 80%;
+        opacity: 0.7;
+
+    }
+    .bandmembersimg:hover {
+        border-color: #f1f1f1;
+    }    
+   /*Styling the carousel section to be able to stretch it end to end without padding.*/
+   .container-fluid {
+        padding-right: 0; 
+        padding-left: 0; 
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: px;
+    }
+
+    .carousel-inner img {
+      -webkit-filter: grayscale(90%);
+      filter: grayscale(90%); /* make all photos black and white */ 
+      width: 100%; /*Set width to 100% */
+      /* margin: auto;*/
+      margin: 0 auto;
+      padding-top: 50px;
+    }
+
+    .carousel-caption h3 {
+        color: #fff !important;
+    }
+  
+    /* styling the navigation bar with background color and a little bit see-through */ 
+    .navbar {
+        margin-bottom: 10px;
+        background-color: #2d2d30;
+        border: 0;
+        font-size: 11px !important;
+        letter-spacing: 4px;
+        opacity:0.9;
+    }    
+
+    /* Add a gray color to all navbar links */
+    .navbar li a, .navbar .navbar-brand { 
+        color: #d5d5d5 !important;
+        font-weight:700;
+    }
+    
+    /* On hover, the links will turn white */
+    .navbar-nav li a:hover {
+        color: #BC0243 !important;
+    }
+    
+    /* The active link */
+    .navbar-nav li.active a {
+        color: #fff !important;
+        background-color:#29292c !important;
+    }
+    /* Remove border color from the collapsible button */
+    .navbar-inverse .navbar-toggle {
+        border-color: transparent;
+    } 
+
+    /* footer */
+    /* Add a dark background color to the footer */
+    footer {
+        background-color: #2d2d30;
+        color: #f5f5f5;
+        padding: 32px;
+    }
+    
+    footer a {
+        color: #f5f5f5;
+    }
+    
+    footer a:hover {
+        color: #777;
+        text-decoration: none;
+    }
+
+    footer i{
+        color: #f5f5f5;
+        text-align:center;
+        font-size:18px;
+        padding-left: 5px;
+    }
+    footer i:hover{
+        color: #f5f5f5;
+        transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+    }
+    /*Additional social media styling on footer*/
+    footer  a > i{
+      color: #fff;
+      display: inline-block;
+  		margin-top: 10px; 
+  		background-color:black;
+  		padding:5px;
+  		font-size:16px;
+      border-radius: 5px;
+    }
+    footer  a > i:hover {
+      color: #BC0243;
+    }     
+
+
+   /*Upcoming events */
+      .event-list {
+  		list-style: none;
+  		font-family: 'Lato', sans-serif;
+  		margin: 0px;
+  		padding: 0px;
+  	}
+  	.event-list > li {
+  		background-color: rgb(255, 255, 255);
+  		box-shadow: 0px 0px 5px rgb(51, 51, 51);
+  		box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
+  		padding: 0px;
+  		margin: 0px 0px 20px;
+  	}
+  	.event-list > li > time {
+  		display: inline-block;
+  		width: 100%;
+  		color: rgb(255, 255, 255);
+  		background-color: rgb(197, 44, 102);
+  		padding: 5px;
+  		text-align: center;
+  		text-transform: uppercase;
+  	}
+  	.event-list > li:nth-child(even) > time {
+  		background-color: rgb(165, 82, 167);
+  	}
+  	.event-list > li > time > span {
+  		display: none;
+  	}
+  	.event-list > li > time > .day {
+  		display: block;
+  		font-size: 56pt;
+  		font-weight: 100;
+  		line-height: 1;
+  	}
+  	.event-list > li time > .month {
+  		display: block;
+  		font-size: 24pt;
+  		font-weight: 900;
+  		line-height: 1;
+  	}
+  	.event-list > li > img {
+  		width: 100%;
+  	}
+  	.event-list > li > .info {
+  		padding-top: 5px;
+  		text-align: center;
+  	}
+  	.event-list > li > .info > .title {
+  		font-size: 17pt;
+  		font-weight: 700;
+  		margin: 0px;
+  	}
+  	.event-list > li > .info > .desc {
+  		font-size: 13pt;
+  		font-weight: 300;
+  		margin: 0px;
+  	}
+  	.event-list > li > .info > ul,
+  	.event-list > li > .social > ul {
+  		display: table;
+  		list-style: none;
+  		margin: 10px 0px 0px;
+  		padding: 0px;
+  		width: 100%;
+  		text-align: center;
+  	}
+  	.event-list > li > .social > ul {
+  		margin: 0px;
+  	}
+  	.event-list > li > .info > ul > li,
+  	.event-list > li > .social > ul > li {
+  		display: table-cell;
+  		cursor: pointer;
+  		color: rgb(30, 30, 30);
+  		font-size: 11pt;
+  		font-weight: 300;
+          padding: 3px 0px;
+  	}
+      .event-list > li > .info > ul > li > a {
+  		display: block;
+  		width: 100%;
+  		color: rgb(30, 30, 30);
+  		text-decoration: none;
+  	} 
+      .event-list > li > .social > ul > li {    
+          padding: 0px;
+      }
+      .event-list > li > .social > ul > li > a {
+          padding: 3px 0px;
+  	} 
+  	.event-list > li > .info > ul > li:hover,
+  	.event-list > li > .social > ul > li:hover {
+  		color: rgb(30, 30, 30);
+  		background-color: rgb(200, 200, 200);
+  	}
+  	.facebook a,
+  	.twitter a,
+  	.youtube a {
+  		display: block;
+  		width: 100%;
+  		color: rgb(75, 110, 168) !important;
+  	}
+  	.twitter a {
+  		color: rgb(79, 213, 248) !important;
+  	}
+  	.youtube a {
+  		color: rgb(221, 75, 57) !important;
+  	}
+  	.facebook:hover a {
+  		color: rgb(255, 255, 255) !important;
+  		background-color: rgb(75, 110, 168) !important;
+  	}
+  	.twitter:hover a {
+  		color: rgb(255, 255, 255) !important;
+  		background-color: rgb(79, 213, 248) !important;
+  	}
+  	.youtube:hover a {
+  		color: rgb(255, 255, 255) !important;
+  		background-color: rgb(221, 75, 57) !important;
+  	}
+    
+    /*media break point*/
+  	@media (min-width: 768px) {
+  		.event-list > li {
+  			position: relative;
+  			display: block;
+  			width: 100%;
+  			height: 120px;
+  			padding: 0px;
+  		}
+  		.event-list > li > time,
+  		.event-list > li > img  {
+  			display: inline-block;
+  		}
+  		.event-list > li > time,
+  		.event-list > li > img {
+  			width: 120px;
+  			float: left;
+  		}
+  		.event-list > li > .info {
+  			background-color: rgb(245, 245, 245);
+  			overflow: hidden;
+  		}
+  		.event-list > li > time,
+  		.event-list > li > img {
+  			width: 120px;
+  			height: 120px;
+  			padding: 0px;
+  			margin: 0px;
+  		}
+  		.event-list > li > .info {
+  			position: relative;
+  			height: 120px;
+  			text-align: left;
+  			padding-right: 40px;
+  		}	
+  		.event-list > li > .info > .title, 
+  		.event-list > li > .info > .desc {
+  			padding: 0px 10px;
+  		}
+  		.event-list > li > .info > ul {
+  			position: absolute;
+  			left: 0px;
+  			bottom: 0px;
+  		}
+  		.event-list > li > .social {
+  			position: absolute;
+  			top: 0px;
+  			right: 0px;
+  			display: block;
+  			width: 40px;
+  		}
+          .event-list > li > .social > ul {
+              border-left: 1px solid rgb(230, 230, 230);
+          }
+  		.event-list > li > .social > ul > li {			
+  			display: block;
+              padding: 0px;
+  		}
+  		.event-list > li > .social > ul > li > a {
+  			display: block;
+  			width: 40px;
+  			padding: 10px 0px 9px;
+  		}
+  	}  
+  	/*max-width media*/
+    @media (max-width: 768px) {
+        .carousel-caption {
+            display: none; /* This will hide the carousel caption when the width is more tha 600px */
+        }
+    
+    }   
+    
+    /*Social media styling  on header*/
+    .anchorinline > a > i{
+      color: #fff;
+      display: inline-block;
+  		margin-top: 15px; 
+  		background-color:black;
+  		padding:2px;
+  		font-size:16px;
+  		border-radius: 5px;
+    }
+    .anchorinline > a > i:hover {
+      color: #BC0243;
+      transition: all 0.35s ease-in-out;
+      -moz-transition: all 0.35s ease-in-out;
+      -webkit-transition: all 0.35s ease-in-out;
+      -o-transition: all 0.35s ease-in-out;      
+    } 
+    
+    /*use to create a hover effect on the highlighted Hire Us link*/
+    .highlightedlink{
+      color:#fff;
+      font-weight: 700;
+      padding:5px;
+    }
+    .highlightedlink:hover{
+      background-color: black; /* #D74E4A;*/
+
+    }
+
+    
+    /*Styling the audio control*/
+    .musicbox > audio{
+      width:100%;
+      height: auto;
+    }  
+    
+    .musicbox > video{
+      width:100%;
+      height: auto;
+    }   
+
+     .musicbox{
+      padding-bottom:1px;
+      margin-bottom:25px;
+      -moz-box-shadow: 1px 1px 2px 0px #006773;
+      -webkit-box-shadow:  1px 1px 2px 0px #006773;
+      box-shadow: 1px 1px 2px 0px #006773;
+      width:100%;
+     } 
+     .musicbox > h4{
+      padding:15px;
+     }
+    .music-container{
+      background-color: #F2F2F2;
+      margin-bottom: 0;
+    }       
+    .musictitle{
+      font-weight:700;
+      text-transform: uppercase;
+      color:#BC0243;
+      padding:25px;
+      margin-top: 45px;
+    }   
+    
+   /*Styling the carousel for photo gallery.*/
+
+    #myGallery > .carousel-inner img {
+      -webkit-filter: grayscale(1%);
+      filter: grayscale(1%); /* make all photos black and white */ 
+      width: 100%; /*Set width to 100% */
+      /* margin: auto;*/
+      margin: 0 auto;
+      padding-top: 5px;
+    }
