@@ -1,27 +1,57 @@
-# Welcome!
+# The Monkees Fan Website (milestone project)
 
-This is a milestone project to create a website for The Monkees.
-This site is comprise of 5 pages:
+The Monkees is an American rock and pop band active in the year between 1965 and 1971. This website was created as a milestone project for fans or people with interest in The Monkees. Visitors to the site will be introduced to the band, and will also see all the original band members, and read their bios. Visitors are also presented with recent news about The Monkees. And will also be able to listen to or download some of The Monkees audios and videos. There is also photo gallery of the band and commentary on each photograph. 
+And finally, fans and visitors will also be able to hire the band for events.
+The site was developed on Cloud9 IDE.
 
-The links: 
-## Home : News : Music : Gallery :   [Hire Us]
+<strong><a href="https://the-monkees-sighovie.c9users.io/index.html" target="_blank">Click here</a></strong> to see the functional site on cloud9.
 
-At the top of the home page after the header, an introduction of the band The Monkees, which is a  1960’s rock band, will be given. Following that, all the members of the band will be introduced. 
-Below that, there will be a mention of recent news about the Monkees. And then below that, a section introducing recent events, and a button for fans to hire the band for events.
+## Pages on the site
 
-### Index.html
-On the index page, the images of the band members can be clicked to get a small bio of each of the band members. When each of the photos are clicked, there is a drop down and collapse effect displaying the bio.
-There are more features on this page with an intro and  links to other pages.
+1. **Index**
 
-### news.html
-The news page gives some recent news about the band. And there is also a link at the bottom of the page that links and open another website on a blank page where more and detailed news about the band can be accessed.
+    The index page contains introduction to the band, and band members. On clicking the photograph of a band members, their bio display. And when clicked again, the bio is hidden. There is also a link from the bio of the band members to wikipedia.org for their full bio.
+The index page also displayed recent news and upcoming events, with a link to read more news and to book the band for events.
+<br /><a href="https://the-monkees-sighovie.c9users.io/index.html" target="_blank"><i>Visit the index page here..</i></a>
 
-### music.html
-This page enables visitors to listen to audio or video music from the band.
+2. **News**
+   
+    The news page gives some recent news about the band. And there is also a link at the bottom of the page that links and open another website on a blank page where more and detailed news about the band can be accessed. 
+<br /><a href="https://the-monkees-sighovie.c9users.io/news.html" target="_blank"><i>Visit the news page here..</i></a> 
 
-### gallery.html
-this page enables visitors to be able to browse the photos. On clicking each photos, a carousel opens with description of the photo.
 
-### Hire Us (upcomingevents.html)
-This page enables visitors to book for events. It also enables visitors see upcoming events. It is possible to link to external website for ticket purchase, but the events are mostly private affairs so not ticketing.
+3. **Music**
+   
+    The music page allows fans and visitors to listen to or download some of The Monkees audio and video clips.
+<br /><a href="https://the-monkees-sighovie.c9users.io/music.html" target="_blank"><i>Visit the music page here..</i></a> 
 
+4. **Gallery**
+   
+    This page enables visitors to be able to browse some of the band's photos. On clicking each photos, a carousel opens with description of the photo.
+<br /><a href="https://the-monkees-sighovie.c9users.io/gallery.html" target="_blank"><i>Visit the gallery page here..</i></a> 
+
+
+5. **Hire Us**
+   
+    This page gives fans and visitors to be able to book the band for events and parties. It also enables visitors see upcoming events.
+<br /><a href="https://the-monkees-sighovie.c9users.io/upcomingevents.html" target="_blank"><i>Visit the Hire Us page here..</i></a> 
+
+
+
+## Technologies
+
+The website was developed with html 5, CSS 3, and Bootstrap, and Cloud9, and information about the band members was sourced from wikipedia.org. Photos about the band were sourced from google, and some videos were sourced from Youtube.
+
+
+## Contributing
+
+The website is intended as a 5-page scale project, however, if there are areas you believe might need improvements, your suggestions and comments are welcome.
+
+## Limitations
+
+This website is not intended as a full-blown website for fans of The Monkees. It is a scaled down project. So many features that would normally be available for fan's pages are not present. Also information about the band and band members cannot be certified as 100% accurate as no attempts were made to contact the members for accuracy confirmation. Also, there are hundreds of photos and music clips out there for the band, but only a few were taken for the development.
+
+
+### Testings done
+
+Extensive testing was done during the building of the site. All links are verified to work. All internal links (index, news, music, gallery, and hire us) open within the page, while extra information open on a blank page. The social icons (Facebook, twitter, and Youtube) do not link anywhere. They are intended that way. 
