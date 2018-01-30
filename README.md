@@ -33,23 +33,23 @@ The index page also displayed recent news and upcoming events, with a link to re
 
 5. **Hire Us**
    
-    This page gives fans and visitors to be able to book the band for events and parties. It also enables visitors see upcoming events.
+    This page allows fans and visitors to the site to be able to book the band for events and parties. It also enables visitors see upcoming events.
 <br /><a href="https://the-monkees-sighovie.c9users.io/upcomingevents.html" target="_blank"><i>Visit the Hire Us page here..</i></a> 
 
 
 
 ## Technologies
 
-The website was developed with html 5, CSS 3, and Bootstrap, and Cloud9, and information about the band members was sourced from wikipedia.org. Photos about the band were sourced from google, and some videos were sourced from Youtube.
+The website was developed using html 5, CSS 3, Bootstrap, and Cloud9. Information about the band members was sourced from wikipedia.org. Photos and some audio clips about the band were sourced from google. Some videos were sourced from Youtube.
 
 
 ## Contributing
 
-The website is intended as a 5-page scale project, however, if there are areas you believe might need improvements, your suggestions and comments are welcome.
+The website is intended as a 5-page scale project, however, if there are areas you believe might need improvement, your suggestions and comments are welcome.
 
 ## Limitations
 
-This website is not intended as a full-blown website for fans of The Monkees. It is a scaled down project. So many features that would normally be available for fan's pages are not present. Also information about the band and band members cannot be certified as 100% accurate as no attempts were made to contact the members for accuracy confirmation. Also, there are hundreds of photos and music clips out there for the band, but only a few were taken for the development.
+This website is not intended as a full-blown website for fans of The Monkees. It is a scaled down project. So many features that would normally be available for fan's pages are not present. Also information about the band and band members cannot be certified as 100% accurate as no attempts were made to contact the members of the band for accuracy. Also, there are hundreds of photos , audio and video clips out there for the band, but only a few were taken for the development.
 
 
 ### Testings done
