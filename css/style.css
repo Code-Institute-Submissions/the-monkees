@@ -388,6 +388,7 @@ footer  a > i:hover {
 
 /*use to create a hover effect on the highlighted Hire Us link*/
 .highlightedlink{
+  font-size: 1em;
   color:#fff;
   font-weight: 700;
   padding:5px;
